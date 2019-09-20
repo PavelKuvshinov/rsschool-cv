@@ -32,3 +32,27 @@ First of all, I want to gain new knowledge, skills and experience. I am sure the
 - Adobe Photoshop - good;
 - Adobe Illustrator - good;
 - Adobe Premiere - basic.
+
+## Code examples
+
+Task: Write array sorting by choice. The array is written to the variable numbers.
+Sort the values in the array in ascending order, from the smallest value to the largest.
+
+```
+let numbers = [3, 5, 15, 6, 2, 1];
+
+for (let i = 0; i <= numbers.length - 1; i++){
+  let min = i;
+  for (let j = i + 1; j < numbers.length; j++){
+    if (numbers[j] < numbers[min]){
+      min = j;
+    } 
+  }
+  let swap = numbers[min];
+  numbers[min] = numbers[i];
+  numbers[i] = swap;
+}
+
+console.log(numbers);
+```
+
