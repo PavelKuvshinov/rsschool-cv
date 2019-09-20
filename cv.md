@@ -62,3 +62,7 @@ console.log(numbers);
 - 2019, Command line, [Codecademy](https://www.codecademy.com/PavelKuvshinov);
 - 2019, GIT, [Codecademy](https://www.codecademy.com/PavelKuvshinov).
 
+## Education
+
+Vehicle Maintenance, Belarusian-Russian University, 2012.
+
