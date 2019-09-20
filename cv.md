@@ -56,3 +56,9 @@ for (let i = 0; i <= numbers.length - 1; i++){
 console.log(numbers);
 ```
 
+## Experience
+
+- 2019, HTML & CSS Basic, [Codecademy](https://www.codecademy.com/PavelKuvshinov);
+- 2019, Command line, [Codecademy](https://www.codecademy.com/PavelKuvshinov);
+- 2019, GIT, [Codecademy](https://www.codecademy.com/PavelKuvshinov).
+
