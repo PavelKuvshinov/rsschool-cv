@@ -66,3 +66,8 @@ console.log(numbers);
 
 Vehicle Maintenance, Belarusian-Russian University, 2012.
 
+## Languages
+
+- Russian;
+- Belorussian;
+- English (A2).
