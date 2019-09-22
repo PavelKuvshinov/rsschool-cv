@@ -38,3 +38,63 @@ h1 {
   font-size: 20px;
   color: #3b576d;
 }
+
+/* wrapper */
+
+.wrapper {
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* aside */
+
+aside {
+  width: 30%;
+  padding: 20px;
+  margin: 20px 0;
+  border-right: 2px solid #3b576d;
+}
+
+/* main */
+
+main {
+  width: 70%;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* content */
+
+article {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #3b576d;
+  border-bottom: 2px solid #3b576d;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #3b576d;
+  border-bottom: 1px dotted #3b576d;
+  margin: 10px 0;
+}
+
+article ul {
+  list-style-type: none;
+}
+
+article ul li{
+  padding-bottom: 5px;
+}
+
+/* footer */
+
+footer {
+  height : 50px;
+  background-color: #e7eaef;
+}
