@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Pavel Kuvshynau resume</title>
+</head>
+<body>
+  <header>
+    <div class="wrapper-header">
+      <figure>
+        <img src="img/photo.jpg" alt="My photo" height="150" width="150">
+      </figure>
+      <div class="main-text">
+        <h1>Pavel Kuvshynau</h1>
+        <p>Front End Developer</p>
+      </div>
+    </div>
+  </header>
+  <div class="wrapper">
+    <aside>
+      <article>
+        <h2>My contacts</h2>
+        <h3>Phone:</h3>
+          <ul>
+            <li>A1: +375445541466</li>
+            <li>MTC: +375295711433</li>
+          </ul>
+        <h3>E-mail:</h3>
+        <p>pavelkuvsh1nov@mail.ru</p>
+        <h3>Address:</h3>
+        <p>Belarus, Borisov, Beregovaya str. 56, 222514</p>
+      </article>
+      <article>
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML - basic;</li>
+          <li>CSS - basic;</li>
+          <li>Javascript - basic;</li>
+          <li>GIT - basic;</li>
+          <li>Adobe Photoshop - good;</li>
+          <li>Adobe Illustrator - good;</li>
+          <li>Adobe Premiere - basic.</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Languages</h2>
+        <ul>
+          <li>Russian;</li>
+          <li>Belorussian;</li>
+          <li>English (A2).</li>
+        </ul>
+      </article>
+    </aside>
+    <main>
+      <article>
+        <h2>Summary</h2>
+        <p>First of all, I want to gain new knowledge, skills and experience. I am sure 
+          they will be useful to me in the future. A good achievement will be successful 
+          completion of training at all stages and getting a new job. I am sure that I 
+          will succeed. </p>
+      </article>
+      <article>
+        <h2>Code example</h2>
+        <p>Task: Write array sorting by choice. The array is written to the variable numbers. 
+           Sort the values in the array in ascending order, from the smallest value to the 
+           largest.</p><br>
+        <code>
+          let numbers = [3, 5, 15, 6, 2, 1];<br><br>
+          for (let i = 0; i &lt;= numbers.length - 1; i++){<br>
+            let min = i;<br>
+            for (let j = i + 1; j &lt; numbers.length; j++){<br>
+              if (numbers[j] &lt; numbers[min]){<br>
+              min = j;<br>
+              }<br> 
+            }<br>
+            let swap = numbers[min];<br>
+            numbers[min] = numbers[i];<br>
+            numbers[i] = swap;<br>
+          }<br><br>
+          console.log(numbers);<br>
+        </code>
+      </article>
+      <article>
+        <h2>Experience</h2>
+        <ul>
+          <li>2019, HTML & CSS Basic, <a href="https://www.codecademy.com/PavelKuvsh1nov" target="blank">Codecademy</a></li>
+          <li>2019, Command line, <a href="https://www.codecademy.com/PavelKuvsh1nov" target="blank">Codecademy</a></li>
+          <li>2019, GIT, <a href="https://www.codecademy.com/PavelKuvsh1nov" target="blank">Codecademy</a></li>
+        </ul>
+      </article>
+      <article>
+        <h2>Education</h2>
+        <p>Vehicle Maintenance, Belarusian-Russian University, 2012.</p>
+      </article>
+    </main>
+  </div>
+  <footer></footer>  
+</body>
+</html>
