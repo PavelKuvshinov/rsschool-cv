@@ -92,6 +92,20 @@ article ul li{
   padding-bottom: 5px;
 }
 
+article ul li a{
+  text-decoration: none;
+  color: #3b576d
+}
+
+article ul li a:hover{
+  color: #000000;
+}
+
+article ul li a:visited{
+  color: #a0b3ba;
+}
+
+
 /* footer */
 
 footer {
