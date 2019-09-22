@@ -54,7 +54,52 @@
         </ul>
       </article>
     </aside>
-    
-  </div>  
+    <main>
+      <article>
+        <h2>Summary</h2>
+        <p>First of all, I want to gain new knowledge, skills and experience. I am sure 
+          they will be useful to me in the future. A good achievement will be successful 
+          completion of training at all stages and getting a new job. I am sure that I 
+          will succeed. </p>
+      </article>
+      
+      <article>
+        <h2>Code example</h2>
+        <p>Task: Write array sorting by choice. The array is written to the variable numbers. 
+           Sort the values in the array in ascending order, from the smallest value to the 
+           largest.</p><br>
+        <code>
+          let numbers = [3, 5, 15, 6, 2, 1];<br><br>
+          for (let i = 0; i <= numbers.length - 1; i++){<br>
+            let min = i;<br>
+            for (let j = i + 1; j < numbers.length; j++){<br>
+              if (numbers[j] < numbers[min]){<br>
+              min = j;<br>
+              }<br> 
+            }<br>
+            let swap = numbers[min];<br>
+            numbers[min] = numbers[i];<br>
+            numbers[i] = swap;<br>
+          }<br><br>
+          console.log(numbers);<br>
+        </code>
+      </article>
+      <article>
+        <h2>Experience</h2>
+        <ul>
+          <li>2019, HTML & CSS Basic,</li>
+          <li>2019, Command line,</li>
+          <li>2019, GIT,</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Education</h2>
+        <p>Vehicle Maintenance, Belarusian-Russian University, 2012.</p>
+      </article>
+    </main>
+  </div>
+  <footer>
+
+  </footer>  
 </body>
 </html>
